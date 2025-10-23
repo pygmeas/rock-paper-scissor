@@ -60,17 +60,17 @@ function playGame(myPick) {
     if (winStreak === 5) {
         achievementImg.src = './images/achievement_win.png';
         achievementImg.style.display = 'block';
-        achievementText.textContent = `You didn’t just win… you bullied the computer!`;
+        achievementText.textContent = `You didn’t just win… you bullied the computer!Won 5x in a row`;
         winStreak = 0;
     } else if (loseStreak === 5) {
         achievementImg.src = './images/achievement_lose.png';
         achievementImg.style.display = 'block';
-        achievementText.textContent = `From ashes of defeat rises the Lose King! Long may you reign in failure!`;
+        achievementText.textContent = `From ashes of defeat rises the Lose King! Long may you reign in failure! Lose 5x in a row`;
         loseStreak = 0;
     } else if (tieStreak === 5) {
         achievementImg.src = './images/achievement_tie.png';
         achievementImg.style.display = 'block';
-        achievementText.textContent = 'Neither win nor lose… you’ve achieved ultimate neutrality!';
+        achievementText.textContent = 'Neither win nor lose… you’ve achieved ultimate neutrality! Tie 5x in a row';
         tieStreak = 0;
     }
 }
