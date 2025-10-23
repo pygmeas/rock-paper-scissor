@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock</title>
+    <link rel="stylesheet" href="game.css" />
+  </head>
+
+  <body>
+    <h1>Rock Paper Scissor</h1>
+
+    <div class="choices">
+      <img src="./images/rock.png" alt="Rock" onclick="playGame('Rock')" />
+      <img src="./images/paper.png" alt="Paper" onclick="playGame('Paper')" />
+      <img src="./images/scissor.png" alt="Scissor" onclick="playGame('Scissor')" />
+    </div>
+
+
+    <img id="result-img" src="" alt="Result Image" style="display:none; width:150px; margin-top:10px;">
+
+    <div id="result"></div>
+
+    <div id="achievement">
+      <img id="achievement-img" src="" alt="Achievement Image" style="display:none; width:200px; margin-top:15px;">
+      <p id="achievement-text">❓❓❓</p>
+    </div>
+
+    <script src="game.js">
+    </script>
+    <a href="./public/about-me.html">
+      <p>About me</p>
+    </a>
+    <a href="/public/contact.html">Contact</a>
+  </body>
+
+</html>

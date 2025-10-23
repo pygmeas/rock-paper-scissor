@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin-top: 30px;
+}
+
+.choices img {
+    width: 120px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.choices img:hover {
+    transform: scale(1.1);
+}
+
+#result {
+    text-align: center;
+    /* centers the text */
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#result-text {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#result-img {
+    display: none;
+    width: 150px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+
+img {
+    width: 100px;
+}
+
+#achievement {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#achievement-img {
+    display: none;
+    width: 200px;
+    margin: 10px auto;
+}
+
+#achievement-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+}
